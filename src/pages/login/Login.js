@@ -193,7 +193,7 @@ function Login() {
                             Please scan verfication code with your authetication app.
                         </div>
                         <div className="otpHolderLogin" style={{ marginTop: '5px' }}>
-                            <img src="http://localhost:5700/qrcode" alt="verfication code qrcode" className="qrCodeimgLogin" />
+                            <img src="https://admins.shirikisho.co.tz/qrcode" alt="verfication code qrcode" className="qrCodeimgLogin" />
                         </div>
                         <div className="otpHolderLogin" style={{ marginTop: '5px' }}>
                             <OTPInput
