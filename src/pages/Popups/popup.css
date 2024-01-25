@@ -1,0 +1,45 @@
+.PopupCompMain{
+    width: 95%;
+    max-width: 420px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.topSectionPopupComp{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    height: 5px;
+}
+
+.closePopupButtonPopupComp{
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    position: absolute;
+    top: -10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 2;
+    right: -50px;
+}
+
+.closePopupButtonPopupComp span{
+    font-size: 26px;
+    color: #222;
+}
+
+.closePopupButtonPopupComp span:hover{
+    color: #ff3636;
+}
+
+.PopupContHolder{
+    margin-top: 5px;
+    width: 100%;
+}

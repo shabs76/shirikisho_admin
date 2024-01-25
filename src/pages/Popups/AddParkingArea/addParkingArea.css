@@ -1,0 +1,55 @@
+.AddParkingAreaMain{
+    width: 100%;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+.addingParkHeader{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.parkHeaderIcon{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.parkHeaderIcon span{
+    font-size: 34px;
+    color: #24B42E;
+}
+
+.AddparkHeaderName{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.formHolderAddParkArea{
+    width: 100%;
+}
+
+.formAddingParkAreaInfo{
+    width: 100%;
+}
+
+
+.errorTextLoc{
+    width: 100%;
+    text-align: center;
+    color: #ff0000;
+    font-size: 14px;
+    padding-top: 7px;
+}
+
+.addParkActionHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.addParkActionButton{
+    height: 40px;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.LoadingPopUpMain{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.LoadingEffectHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.TextLoadingPopUp{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}

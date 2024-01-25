@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.MainAppHolder{
+  width: 100%;
+  min-width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.PopUpHolderDiv{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(19, 17, 38, 0.76);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 400;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.PhoneInput{
+  height: 45px;
+  border: 1px #505F79 solid;
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.PhoneInputInput{
+  border: none;
+  height: 100%;
+}
+
+.PhoneLableKazi{
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+/* page headers */
+.TopSectDashPage{
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.topDashPageTextInfo{
+  width: 100%;
+}
+
+.TopSectHeaderPager{
+  font-size: 32px;
+  color: #31373B;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.topSectDescriptionPager{
+  font-size: 14px;
+}
+
+.addingTopPageButtonHolder{
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addingTopPageButton{
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+/* table header with search */
+
+.tableHeaderSearch{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.tableHeaderTextVals{
+  flex: 1;
+}
+
+.tableHeaderTextName{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.tableHeaderTextDescript{
+  font-size: 12px;
+}
+
+.tableSearchInputDiv{
+  width: 360px;
+}
+
+.iconSearchInput{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconSearchInput span {
+  color: #505F79;
+}
+.tableSearchInputType{
+  width: 100%;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid #505F794D;
+  padding-left: 35px;
 }

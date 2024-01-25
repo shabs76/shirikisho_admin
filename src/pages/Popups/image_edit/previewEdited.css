@@ -1,0 +1,81 @@
+.editedMainPreviewMain{
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.imageHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageTagPreviewEdited {
+    width: 100%;
+    border-radius: 15px;
+    max-height: calc(60vh);
+    border: 1px solid #8fc9f1;
+}
+.titleEditedMainImage{
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.controlsEdited{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.secondClassPreviewEditedMain{
+    width: 80px;
+    height: 37px;
+}
+
+.firstClassPreviewEditedMain{
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 0;
+    padding-left: 10px;
+    border: #000 solid 1px;
+}
+
+.buttonTextPreviewEditedImages{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.iconButtonHolderEditedImages{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.iconButtonHolderEditedImages span{
+    color: #7636E6;
+}
+
+.PreviewCaptionInputHolde{
+    width: 100%;
+}
+
+.PreviewCaptionInput{
+    width: 100% !important;
+    height: 42px !important;
+    padding-left: 17px !important;
+    padding-right: 7px !important;
+    border-radius: 23px !important;
+    border: 1px solid #8fc9f1 !important;
+}

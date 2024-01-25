@@ -1,0 +1,79 @@
+.DriverTableHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+    background-color: #F3F6F9;
+    padding: 20px 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.SNColumnDriverTable{
+    width: 40px;
+    max-width: 40px;
+    min-width: 40px;
+}
+
+.phoneColumnDriverTable{
+    width: 130px;
+    max-width: 130px;
+    min-width: 130px;
+}
+
+.uniColumnDriverTable{
+    width: 130px;
+    max-width: 130px;
+    min-width: 130px;
+}
+
+.parkNameDriverTable{
+    width: 130px;
+    max-width: 130px;
+    min-width: 130px;
+}
+
+.resiColumnDriverTable{
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.stateColumnDriverTable{
+    width: 90px;
+    max-width: 90px;
+    min-width: 90px;
+}
+
+.actColumnDriverTable{
+    width: 90px;
+    max-width: 90px;
+    min-width: 90px;
+    text-align: center;
+    margin-right: 0 !important;
+    border-right: none;
+}
+
+.nameColumnDriverTable{
+    flex: 1;
+}
+
+.DriverTableRowMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    padding: 5px 15px;
+}
+
+
+.rowActionButtonDriverTable{
+    height: 30px;
+    width: 100%;
+    background-color: #09A0DD;
+    font-size: 13px;
+    border-radius: 8px;
+}

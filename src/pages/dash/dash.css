@@ -1,0 +1,52 @@
+.MainDashHolder{
+    width: 100%;
+    /* background-color: aliceblue; */
+    background-color: #eff0f0;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+
+.sideBarHolder{
+    width: 250px;
+    height: 100vh;
+    z-index: 120;
+}
+
+.topNavHolder{
+    height: 50px;
+    width: calc(100vw - 250px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 120;
+}
+
+.DashContHolder{
+    margin-top: 60px;
+    width: calc(100% - 270px);
+}
+
+.pageheaderMain{
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Salsa', cursive;
+    margin-bottom: 20px;
+}
+
+.columnHeader{
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.columnVals{
+    margin-right: 5px;
+    font-size: 14px;
+    padding-left: 5px;
+}

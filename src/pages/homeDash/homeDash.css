@@ -1,0 +1,49 @@
+.mainHomeDash{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.homeDashTopSect{
+    display: flex;
+    justify-content: flex-start;
+    width: calc(100% - 250px);
+}
+
+.GraphAndBubbleHolderHomeDash{
+    width: calc(100% - 360px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.bubbleHolderHomeDash{
+    width: 260px;
+    margin-left: 15px;
+}
+
+.parksTileHolderHomeDash{
+    width: 100%;
+    margin-top: 15px;
+}
+.regStrationMonthGraphHolder{
+    flex: 1;
+}
+
+.barGraphHolderHomeDash{
+    width: calc(100% - 360px);
+}
+
+.homeDashRightSectHolder{
+    width: 350px;
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+    top: 30px;
+}
+
+.performercollectionHolder{
+    width: 100%;
+    margin-top: 20px;
+}
+
+

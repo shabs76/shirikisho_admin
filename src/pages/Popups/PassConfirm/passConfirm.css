@@ -1,0 +1,62 @@
+.PassConfirmMain{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.PassConfirmHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.logooNpopUpPassconfirm{
+    height: 60px;
+}
+
+.PassconfirmHeader{
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.midSectPassConfirm{
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #303030;
+}
+
+.passConfirmFormHolder{
+    width: 100%;
+}
+
+.formConfirm{
+    width: 100%;
+}
+
+.passConfirmError{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    color: #FB0B0C;
+    margin-bottom: 15px;
+}
+
+.passConfirmButtonHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passConfirmButton{
+    width: 70%;
+    height: 40px;
+}

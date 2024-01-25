@@ -1,0 +1,96 @@
+.topNavMain{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.topNaContHolder{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+    height: 100%;
+}
+
+.topUserContHolder{
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.notificationTopNavButn{
+    height: 100%;
+    border-right: 1px solid #CFD0D0;
+    border-left: 1px solid #CFD0D0;
+    background-color: transparent;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 5px;
+    width: 60px;
+}
+
+.notifiDivTopCont{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbHolderNotificationTopNav{
+    position: absolute;
+    top: -5px;
+    right: -3px;
+    width: 20px;
+    height: 20px;
+    background-color: #ff3636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+}
+
+.notifiDivTopCont .material-symbols-outlined{
+    font-size: 32px;
+}
+
+.userInfoButtonTopNav{
+    height: 100%;
+    background-color: transparent;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.userButtonInfContHolder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.userImagTopNav{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #f0f0f0;
+}
+
+.userNameTopNavContHolder{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 7px;
+}
+
+.userNameTopNavValue{
+    font-size: 17px;
+    margin-right: 5px;
+}

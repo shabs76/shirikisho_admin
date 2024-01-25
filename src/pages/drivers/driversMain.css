@@ -1,0 +1,15 @@
+.DriversMainPage{
+    width: 100%;
+    padding: 20px;
+    padding-left: 0;
+}
+
+
+
+.DriversTableHolder{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}

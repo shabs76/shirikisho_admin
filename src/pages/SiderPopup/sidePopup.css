@@ -1,0 +1,119 @@
+.siderPopMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.siderSectPopSider{
+    width: 660px;
+    height: 100%;
+    background-color: #F7F8F9;
+    padding: 20px;
+}
+
+.floatingButtonHolderSiderPop{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: -50px;
+    top: 7px;
+}
+
+.floatButtonSiderPop{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.floatButtonSiderPop span{
+    font-size: 30px;
+}
+
+.floatButtonSiderPop:hover {
+    color: #ff0000;
+}
+
+.siderPopContHolder{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+
+/* sections styles */
+.driverMainTileDetails{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.driverHeaderSect{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.driverHeadericonTile{
+    width: 36px;
+}
+
+.driverHeadericonTile span{
+    font-size: 32px;
+    color: #24B42E;
+}
+
+.driverHeaderValTile{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.driverDetailsTileBox{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #505F7940;
+}
+
+.driverDetailsTileCont{
+    width: 100%;
+}
+
+.driverDatilsRowCont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.itemHolderWidGiver{
+    width: calc(50% - 10px);
+}
+
+.megaRowDriverDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.driverDetailsTileIdDiv{
+    width: 200px;
+    height: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.spacerDriverDetailsTile{
+    height: 20px;
+}

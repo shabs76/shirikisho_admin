@@ -1,0 +1,18 @@
+.ServicesMain{
+    width: 100%;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.ServicesBubblesHolder{
+    width: 100%;
+}
+
+.servicesBubbleContArranger{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+}

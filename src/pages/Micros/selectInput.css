@@ -1,0 +1,27 @@
+.SelectInputMain{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.SelectlabelName{
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.SelectInputBlock{
+    height: 45px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #505f79a0;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: #fff;
+}
+
+.errorInput{
+    border: 1px solid #ff3636;
+}
+
+.ActiveInput{
+    border: 1px solid #008314;
+}

@@ -1,0 +1,55 @@
+.CreateNewPass{
+    width: 100%;
+    padding: 0 7px;
+}
+
+.headerCreateNewPass{
+    width: 100%;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #afa9a9;
+    margin-bottom: 15px;
+}
+
+.CreateNewPassLogo{
+    height: 35px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.PassNewHeader{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.formHolderNewPass{
+    width: 100%;
+}
+
+.formNewPass{
+    width: 100%;
+}
+
+.NewpassError{
+    width: 100%;
+    font-size: 14px;
+    color: #FB0B0C;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.NewPassActionsHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.NewPassChangeAction{
+    width: 100%;
+    height: 45px;
+    font-size: 17px;
+    font-weight: 600;
+}

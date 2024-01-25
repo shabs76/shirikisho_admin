@@ -1,0 +1,65 @@
+.searchBarTopsecmain{
+    width: 680px;
+    height: 60px;
+}
+
+.searchContsholder{
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.iconHolderSearchbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.iconHolderSearchbar span{
+    font-size: 36px;
+    color: #333e4f;
+}
+
+.searctTypeHolder{
+    height: 100%;
+    margin-right: 35px;
+}
+
+.searchTypeInput{
+    height: 100%;
+    border: none;
+    font-weight: 600;
+}
+
+.serchtextinputHolder{
+    flex: 1;
+    height: 100%;
+}
+
+.searchInput{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 40px;
+}
+
+.searchButtonSearchBar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

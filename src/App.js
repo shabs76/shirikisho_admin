@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import { useSelector } from 'react-redux';
+import Popup from './pages/Popups/Popup';
 import './App.css';
+import AppMain from './AppMain';
+import SidePopup from './pages/SiderPopup/SidePopup';
 
 function App() {
+  const popupState = useSelector(state => state.PopupReducer.state);
+  const sidPopState = useSelector(state => state.SiderPopReducer.state);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="MainAppHolder">
+      <AppMain />
+      <div className="PopUpHolderDiv" style={sidPopState? { display: 'flex' }: {}}>
+        <SidePopup />
+      </div>
+      <div className="PopUpHolderDiv" style={popupState? { display: 'flex' }: {}}>
+        <Popup />
+      </div>
     </div>
   );
 }

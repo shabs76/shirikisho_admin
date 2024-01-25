@@ -1,0 +1,64 @@
+.UserProfilePopMain{
+    width: 100%;
+}
+
+.UserProfilePopBigRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.UserProfilePopImgHolder{
+    width: 120px;
+}
+.userProfilePopImg{
+    height: 120px;
+    width: 100%;
+    border: 1px solid #505f79a0;
+    border-radius: 10px;
+}
+
+.userProfileRightTxtInfo{
+    width: calc(100% - 130px);
+}
+
+.userProfiletypeUser{
+    font-size: 14px;
+    color: #505f79aa;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.userProfilePopname{
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.userProfileConts{
+    font-size: 14px;
+    color: #505f79aa;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: lowercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.userProfleActionHoler{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.userProfilePopAction{
+    height: 35px;
+    width: 100px;
+}
+
+.userProfileLoadHolder{
+    width: 100px;
+}

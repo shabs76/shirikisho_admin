@@ -1,0 +1,21 @@
+.ParkAreaInfoMain{
+    width: 100%;
+}
+
+.sectParkInfo{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.selectLeaderForParkAreaParkInfo{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectLeaderButtonForParkAreaParkInfo{
+    height: 40px;
+    width: 200px;
+}

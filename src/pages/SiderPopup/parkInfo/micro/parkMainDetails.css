@@ -1,0 +1,39 @@
+.actionAreaParkMainDetails{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.actionAreaParkMainDetailsCont{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.actionButtonParkDets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+
+.iconHolderactionNormMainParkDetails{
+    width: 24px;
+}
+
+.iconHolderactionNormMainParkDetails span{
+    color: #fff;
+    font-size: 19px;
+}
+
+.buttonNameactionNormMainParkDetails{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}

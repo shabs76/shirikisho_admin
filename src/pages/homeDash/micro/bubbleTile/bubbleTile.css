@@ -1,0 +1,67 @@
+.BubbleTileMain{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+
+.BubbleTileHeader{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.BubbleContHolder{
+    width: 100%;
+    height: 330px;
+}
+
+.BubbleRoundCont{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background-color: #01FF42;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.bubbleNameRound{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.bubbleValueRound{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.loanBubble{
+    width: 90px;
+    height: 90px;
+    right: 5px;
+    top: 20px;
+}
+
+.collectionsBubble{
+    right: 0;
+    top: 170px;
+}
+
+.loansNumberBubble{
+    left: 10px;
+    top: 60px;
+    width: 110px;
+    height: 110px;
+}
+
+.defaultsBubble{
+    width: 80px;
+    height: 80px;
+    left: 10px;
+    bottom: 20px;
+}

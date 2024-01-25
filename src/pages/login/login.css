@@ -1,0 +1,108 @@
+.LoginMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 229, 229);
+    align-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.loginPopLogiPage{
+    width: 90%;
+    max-width: 900px;
+    min-width: 530px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    max-height: 460px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.leftFormsHolder{
+    width: 50%;
+    padding: 10px;
+}
+
+.LogoHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logoImgaLogin{
+    width: 120px;
+}
+
+.loginPassIniHolder{
+    width: 100%;
+}
+
+.loginPassform{
+    width: 100%;
+    display: block;
+}
+
+.formNameHeader{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.rightPicturesHolder{
+    width: 50%;
+    overflow: visible;
+}
+
+.loginMainImage{
+    width: 120%;
+}
+
+.formErrorDivLogin{
+    width: 100%;
+    margin: 5px auto;
+    font-size: 14px;
+    color: #ff3636;
+    text-align: center;
+}
+
+.LoginButtonsHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginButtonMain{
+    width: 100%;
+    height: 45px;
+}
+
+.otpExplation{
+    width: 100%;
+    font-size: 14px;
+    color: #3f3f3f;
+    margin: 15px 0;
+    margin-bottom: 25px;
+}
+
+.otpHolderLogin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.qrCodeimgLogin{
+    width: 200px;
+}

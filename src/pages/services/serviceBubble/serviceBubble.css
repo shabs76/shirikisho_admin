@@ -1,0 +1,31 @@
+.ServiceBubbleMain{
+    background-color: transparent;
+    height: 150px;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 7px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.serviceBubbleIconDivHolder{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seriveBubbleIconImage{
+    width: 80px;
+}
+
+.serviceBubbleNameHolder{
+    padding-top: 10px;
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+}

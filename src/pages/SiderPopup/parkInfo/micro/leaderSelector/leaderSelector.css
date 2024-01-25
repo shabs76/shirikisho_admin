@@ -1,0 +1,49 @@
+.leaderSelectorMain{
+    width: 100%;
+    padding: 30px 15px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.leaderSelectorHeader{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.leaderShipChangeInputsHolder{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+}
+
+.leaderShipChangeInputColumn{
+    width: 175px;
+}
+
+.leaderShipChangeLable{
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.selectInputLeaderShipChange{
+    height: 35px;
+    width: 100%;
+    border-radius: 7px;
+    padding-left: 7px;
+}
+
+.leaderShipChangeActionHolder{
+    width: calc(100% - 400px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.leaderShipChangeAction{
+    height: 35px;
+    width: 90%;
+}

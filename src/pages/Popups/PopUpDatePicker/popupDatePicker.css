@@ -1,0 +1,34 @@
+.PopupDatePicker{
+    width: 100%;
+}
+
+.PopupDatePickerHeader{
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1A120B;
+}
+
+.PopupDateSelectButtonHolder{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.popupDateButton{
+    width: 75%;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+.rdrStaticRange{
+    color: #1A120B !important;
+}
+.rdrStaticRangeSelected {
+    color: #24B42E
+ !important;
+}

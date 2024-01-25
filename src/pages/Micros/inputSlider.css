@@ -1,0 +1,52 @@
+.InputSliderMain{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.labelInputSlider{
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.currentSliderValueNUnit{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    margin-top: 5px;
+}
+
+.currentSliderValue{
+    font-size: 15px;
+    font-weight: 600;
+    color: #008134;
+}
+
+.currentSliderUnit{
+    font-size: 15px;
+    font-weight: 600;
+    color: #008134;
+    padding-left: 3px;
+}
+
+.rc-slider-rail{
+    background-color: #e1f5eb;
+}
+
+.rc-slider-track{
+    background-color: #008134b2;
+}
+
+.rc-slider-handle{
+    border: solid 2px #008134b2;
+}
+
+.rc-slider-handle:hover{
+    border: solid 2px #008134;
+}
+
+
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
+    border-color: #008134;
+    box-shadow: 0 0 0 5px #bdf0d7;
+}

@@ -1,0 +1,13 @@
+.itemColumnMain{
+    width: 100%;
+}
+
+.itemColumnHeader{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.itemColumnValue{
+    font-size: 13px;
+    color: #8A9099;
+}

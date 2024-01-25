@@ -1,0 +1,185 @@
+.MainInfoDriverDetails{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.MainInfoDriverContDets{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftMainInfoDriverDetails{
+    width: 220px;
+}
+
+.imageHolderDriverDetails{
+    width: 100%;
+}
+
+.imageDriverDpDrverDetails{
+    width: 100%;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.driverDetailsTextNames{
+    width: 100%;
+    margin-top: 6px;
+}
+
+.driverDetailsDriverNameval{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.driverUniformNoVals{
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    color: #24B42E;
+}
+
+.rightMainInfoIconNText{
+    width: calc(100% - 230px);
+    border: 1px solid #505F7940;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.topSectRightMainInfoDriverDetails{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.rowRightMainInfoDriverDetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.infosubTileRightMainDriverInfoDetails{
+    width: calc(50% - 5px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.iconHolderMainDriverInfoDetails{
+    width: 26px;
+}
+
+.iconHolderMainDriverInfoDetails span {
+    font-size: 20px;
+    color: #24B42E;
+}
+
+.textInfoHolderTextDriverDetails{
+    width: calc(100% - 26px);
+}
+
+.scHeadertextDetailsDriverMainInfo{
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.scValuetextDetailsDriverMainInfo{
+    font-size: 12px;
+    color: #8A9099;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lowSectRightMainInfoDriverDetails{
+    width: 100%;
+}
+
+.parkAreaLeaderTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: #09A0DD;
+    margin-bottom: 10px;
+}
+
+.parkAreaDetails{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imageparkArealeaderDriverDetails{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #222;
+    background-size: cover;
+    background-position: center;
+    margin-right: 7px;
+}
+
+.rightParkLeaderInfoDriverDetails{
+    width: calc(100% - 50px);
+}
+
+.parkLeadernameDriverdetails{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.parkLeaderNumberDerverDetails{
+    font-size: 13px;
+    color: #09A0DD;
+}
+
+.ActionAreaMainDriverDetails{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.buttonsGroupMainDriverDetails{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.actionNormMainDriverDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.iconHolderactionNormMainDriverDetails{
+    width: 24px;
+}
+
+.iconHolderactionNormMainDriverDetails span{
+    color: #fff;
+    font-size: 19px;
+}
+
+.buttonNameactionNormMainDriverDetails{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}

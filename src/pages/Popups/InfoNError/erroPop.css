@@ -1,0 +1,58 @@
+.ErrorPopMain{
+    width: 100%;
+}
+
+.CompanyLogoSection{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.companyLogoImgErrorPop{
+    height: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #aaa;
+    background-color: #cdc9c9;
+}
+
+.HeadSectionErrorPop{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ErrorNameErrorPop{
+    text-align: center;
+    width: 100%;
+    color: #ff3636;
+}
+
+.InfoNameStyleErrorPop{
+    color: #008134;
+}
+
+.ErrorInfoContentHolderErrorPop{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.okayButtonHolderErrorPop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.okayButtonHolderErrorPop button {
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid #008134;
+    color: #008134;
+    border-radius: 18px;
+    width: 70px;
+}
